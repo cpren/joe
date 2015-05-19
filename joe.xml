@@ -26,7 +26,4 @@
       </block>
     </next>
   </block>
-  <block type="math_number" id="212" x="321" y="118">
-    <field name="NUM">400</field>
-  </block>
 </xml>
