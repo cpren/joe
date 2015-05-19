@@ -12,10 +12,23 @@
             <next>
               <block type="robot_delay" id="222" inline="true">
                 <value name="DELAY">
-                  <block type="sensor_light" id="241">
-                    <field name="LIGHT">LEFT</field>
+                  <block type="math_number" id="249">
+                    <field name="NUM">1500</field>
                   </block>
                 </value>
+                <next>
+                  <block type="movement_stutter" id="259">
+                    <next>
+                      <block type="robot_delay" id="267" inline="true">
+                        <value name="DELAY">
+                          <block type="math_number" id="268">
+                            <field name="NUM">1500</field>
+                          </block>
+                        </value>
+                      </block>
+                    </next>
+                  </block>
+                </next>
               </block>
             </next>
           </block>
