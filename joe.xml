@@ -59,6 +59,25 @@
                                             <field name="NUM">1500</field>
                                           </block>
                                         </value>
+                                        <next>
+                                          <block type="movement_right" id="382">
+                                            <next>
+                                              <block type="led_select" id="391" inline="true">
+                                                <field name="ACTION">FLASH</field>
+                                                <value name="LED">
+                                                  <block type="math_number" id="405">
+                                                    <field name="NUM">123456</field>
+                                                  </block>
+                                                </value>
+                                                <next>
+                                                  <block type="led_select" id="414" inline="true">
+                                                    <field name="ACTION">OFF</field>
+                                                  </block>
+                                                </next>
+                                              </block>
+                                            </next>
+                                          </block>
+                                        </next>
                                       </block>
                                     </next>
                                   </block>
