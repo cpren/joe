@@ -59,11 +59,6 @@
                                             <field name="NUM">1500</field>
                                           </block>
                                         </value>
-                                        <next>
-                                          <block type="multimedia_playwav" id="363">
-                                            <field name="WAV">lalalala</field>
-                                          </block>
-                                        </next>
                                       </block>
                                     </next>
                                   </block>
