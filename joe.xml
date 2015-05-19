@@ -1,11 +1,6 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
   <block type="led_select" id="335" inline="true" x="49" y="28">
     <field name="ACTION">ON</field>
-    <value name="LED">
-      <block type="math_number" id="336">
-        <field name="NUM">0</field>
-      </block>
-    </value>
     <next>
       <block type="robot_delay" id="338" inline="true">
         <value name="DELAY">
