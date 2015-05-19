@@ -3,7 +3,7 @@
     <field name="ACTION">ON</field>
     <value name="LED">
       <block type="math_number" id="347">
-        <field name="NUM">5000</field>
+        <field name="NUM">1</field>
       </block>
     </value>
     <next>
