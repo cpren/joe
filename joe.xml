@@ -34,7 +34,7 @@
                             </value>
                             <value name="BOTHMOVRIGHT">
                               <block type="math_number" id="295">
-                                <field name="NUM">1500</field>
+                                <field name="NUM">3000</field>
                               </block>
                             </value>
                             <next>
