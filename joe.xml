@@ -62,14 +62,7 @@
                                         <next>
                                           <block type="movement_right" id="382">
                                             <next>
-                                              <block type="led_select" id="391" inline="true">
-                                                <field name="ACTION">FLASH</field>
-                                                <value name="LED">
-                                                  <block type="math_number" id="405">
-                                                    <field name="NUM">2</field>
-                                                  </block>
-                                                </value>
-                                              </block>
+                                              <block type="movement_stop" id="424"></block>
                                             </next>
                                           </block>
                                         </next>
